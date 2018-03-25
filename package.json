@@ -1,0 +1,19 @@
+{
+  "author": "Nattakit Boonyang <nattakit.boonyang@gmail.com>",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "license": "MIT",
+  "main": "script.js",
+  "name": "ecma-script-6",
+  "private": true,
+  "scripts": {
+    "watch": "npx nodemon script.js --exec babel-node"
+  },
+  "version": "1.0.0"
+}

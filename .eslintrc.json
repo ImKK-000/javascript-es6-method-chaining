@@ -1,0 +1,56 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jquery": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "allowImportExportEverywhere": false,
+      "codeFrame": false,
+      "jsx": true,
+      "sourceType": "module"
+    },
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "babel"
+  ],
+  "rules": {
+    "constructor-super": "warn",
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "newline-per-chained-call": [
+      "error",
+      {
+        "ignoreChainWithDepth": 2
+      }
+    ],
+    "no-console": "off",
+    "no-const-assign": "warn",
+    "no-extra-boolean-cast": "off",
+    "no-this-before-super": "warn",
+    "no-undef": "error",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "strict": "error",
+    "valid-typeof": "warn"
+  }
+}
