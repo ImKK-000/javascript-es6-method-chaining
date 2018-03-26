@@ -48,7 +48,7 @@
     ],
     "semi": [
       "error",
-      "never"
+      "always"
     ],
     "strict": "error",
     "valid-typeof": "warn"
